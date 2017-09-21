@@ -18,13 +18,13 @@
         xmlns:cm="http://schemas.android.com/apk/res/cyanogenmod.platform"
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/about_settings">
-			<PreferenceCategory android:layout="@layout/jactivelteam" android:key="logo" android:title="" />
- +        
- +      <!-- JactiveLTeam -->
- +      <PreferenceScreen android:key="jactivelteam"
- +      		android:title="JactiveLTEam"
- +      		android:summary="Ivan Cristina (IvanCristina)\nBruno Negovec (zagi988)\nVladyslav Tsvietkov (tsvetkov_vlad)\nVishwa Kumar">
- +      </PreferenceScreen>
+        <PreferenceCategory android:layout="@layout/jactivelteam" android:key="logo" android:title="" />
+
+        <!-- JactiveLTeam -->
+        <PreferenceScreen android:key="jactivelteam"
+                android:title="JactiveLTEam"
+                android:summary="Ivan Cristina (IvanCristina)\nBruno Negovec (zagi988)\nVladyslav Tsvietkov (tsvetkov_vlad)\nVishwa Kumar">
+        </PreferenceScreen>
 
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
